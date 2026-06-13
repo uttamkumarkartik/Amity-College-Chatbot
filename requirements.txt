@@ -1,0 +1,10 @@
+streamlit==1.35.0
+langchain-community
+langchain-core
+langchain-classic
+langchain-google-genai
+langchain-chroma
+langchain-huggingface
+pypdf
+sentence-transformers
+beautifulsoup4
