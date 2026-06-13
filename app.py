@@ -14,7 +14,7 @@ from langchain_core.messages import HumanMessage, AIMessage
 # 1. CONFIGURATION & API SETUP
 # ==========================================
 # IMPORTANT: DO NOT UPLOAD YOUR REAL KEY TO GITHUB! 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyC05vN3mSpJUkVuzBxYeROqSUVoH6zlEWE"
+os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"]
 
 st.set_page_config(page_title="Amity Assistant", page_icon="🎓")
 st.title("🎓 Amity University Online FAQ Assistant")
